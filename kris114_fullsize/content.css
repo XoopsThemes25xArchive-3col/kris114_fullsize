@@ -1,0 +1,298 @@
+/* ==== liens (désactivés) ci-dessous vers des feuilles de styles spécifiques
+dans le cas de surcharge "générale" et pour les versions de xoops à partir de la 2.3 =====*/
+/*@import url(content-data.css);
+@import url(content-datalists.css);*/
+/*==================== fin des liens =================*/
+
+/* Titre sous titre liste... */
+h1 {font-size: 					1.6em;}
+h2 {font-size: 					1.4em;}
+h3 {font-size: 					1.2em;}
+h4 {font-size: 					1em;}
+h5 {font-size: 					.9em;}
+h6 {font-size: 					.8em;}
+
+h1 {
+	clear:							both;
+	margin-top:						.25em;
+	margin-bottom:					.5em;
+	padding-left:					.25em;
+	font-weight:					bold;
+	color:							#35CFFF;
+	background-color: 			inherit;
+}
+h1 a, h2 a{
+	text-decoration:				none;
+	color:							#315EDF;
+	background-color: 			inherit;
+}
+h1 a:hover, h2 a:hover {
+	color: 							#35CFFF;
+	text-decoration:				underline;
+	background-color: 			inherit;
+}
+a[rel~=alternate] { float:		right;}
+a {
+	text-decoration: 				none;
+	color: 							#666;
+	background-color: 			inherit;
+}
+a:hover {
+	color: 							#808080;
+	background-color: 			inherit;
+	text-decoration: 				none;
+}
+img {	border:						0px;}
+/*------- styles pour mettre des blocs "flottants" par exemple des images --------*/
+.floatleft {
+	float: 							left;
+	border: 							0px;
+	padding-left: 					4px;
+	margin-top: 					1em;
+	margin-right : 				1em;
+}
+.floatright {
+	float: 							right;
+	margin: 							0 0 10px 10px;
+	border: 							0px;
+	padding: 						2px;
+}
+/*---------- acronymes, abbréviation ------------*/
+acronym, abbr {
+	border-bottom: 				1px dashed #35CFFF;
+	cursor: 							help;
+}
+acronym:hover, abbr:hover { border-bottom: 1px dashed #35CFFF;}
+/*------------------- listes ----------------*/
+ul {
+	list-style: 					none;
+	padding: 						0;
+}
+li {
+	margin:							0;
+	border-bottom:					1px solid #F5F5F5;
+	border-left: 					6px solid #35CFFF;
+	padding:							0 0 5px 20px;
+	list-style:						none;
+	color:							#999;
+	background-color: 			inherit;
+}
+/* ========== styles utilisés dans les "articles" de contenu (exemple : news) ============*/
+.item {
+	color: 							#333;
+	margin-bottom: 				20px;
+	background-color: 			inherit;
+}
+.itemHead {
+	color: 							#35CFFF;
+	padding: 						3px;
+	background-color: 			inherit;
+}
+.itemInfo {
+	text-align: 					right;
+	padding: 						3px;
+	color: 							#315EDF;
+	font-size: 						.8em;
+	font-style: 					italic;
+	background-color: 			inherit;
+}
+.itemTitle a {
+	color:							#35CFFF;
+	font-weight: 					bold;
+	text-decoration: 				none;
+	background-color: 			inherit;
+}
+.itemTitle a:hover {
+	text-decoration: 				none;
+	color: 							#315EDF;
+	background-color: 			inherit;
+	border-bottom: 				1px dashed #315EDF;
+}
+.itemPoster, .itemPostDate, .itemStats {
+	font-size: 						.9em;
+	color: 							#315EDF;
+	background-color: 			inherit;
+	}
+.itemPoster a:hover {
+	color:							#315EDF;
+	text-decoration: 				underline;
+	background-color: 			inherit;
+}
+.itemBody {
+	color:							#666;
+	padding: 						5px;
+	background-color: 			inherit;
+}
+.itemText {
+	color:							#333;
+	margin-top: 					1px;
+	margin-bottom: 				1px;
+	background-color: 			inherit;
+}
+.itemText a , .itemInfo a {
+	color: 							#999;
+	font-weight: 					normal;
+	text-decoration: 				none;
+	background-color: 			inherit;
+}
+.itemText a:hover .itemInfo a:hover, .itemFoot a:hover {
+	color: 							#666;
+	text-decoration: 				underline;
+	background-color: 			inherit;
+}
+.itemBody a{
+	color:							#35CFFF;
+	text-decoration: 				none;
+	background-color: 			inherit;
+}
+.itemBody a:hover {
+	background-color:				#35CFFF;
+	color:							#fff;
+	text-decoration: 				none;
+}
+.itemText:first-letter {}
+.itemFoot {
+	color:							#315EDF;
+	text-align: 					right;
+	padding: 						3px;
+	margin-right: 					20px;
+	margin-left: 					20px;
+	background-color: 			inherit;
+}
+.itemFoot a {
+	color:							#315EDF;
+	background-color: 			inherit;
+}
+.itemFoot a:hover {
+	color:							#35CFFF;
+	background-color: 			#F5F5F5;
+	text-decoration:				none;
+}
+.itemAdminLink {
+	color:							#315EDF;
+	font-size: 						.9em;
+	background-color: 			inherit;
+}
+.itemPermaLink {
+	color:							#315EDF;
+	font-size: 						.9em;
+	background-color: 			inherit;
+}
+/*=============== styles pour les tableaux =================*/
+.outer {
+	color:							#333;
+	background-color: 			#F5F5F5;
+	font-size:						.9em;
+}
+.head {
+	background-color: 			#F5F5F5;
+	padding: 						5px;
+	font-weight: 					bold;
+	color: 							#666;
+}
+.head a {
+	color: 							#35CFFF;
+	text-decoration: 				none;
+	background-color: 			inherit;
+}
+.head a:hover {
+	color:							#315EDF;
+	text-decoration: 				none;
+	background-color: 			inherit;
+}
+.even {color:#666; background-color: #F5F5F5; padding: 5px;}
+tr .even td a:hover { color:#35CFFF; background-color: inherit;}
+.odd {color:#666; background-color: #F5F5F5; padding: 5px;}
+.odd a:hover {	color:#35CFFF; background-color: inherit;}
+tr.even td {color:#666; background-color: #F5F5F5;  padding: 5px;}
+tr.odd td {color:#666; background-color: #F5F5F5; padding: 5px;}
+.foot {color:#333; background-color: #F5F5F5; padding: 2px; font-weight: bold; text-align:center;}
+th {font-size:1.1em; background-color: #333; color: #fff; padding: 2px; vertical-align: middle;}
+th a {color: #fff; background-color: inherit;}
+/*=========== Styles pour les pages de redirections ==============*/
+div.errorMsg { background-color: #FFCCCC; color:#333; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode {}
+div.xoopsQuote {}
+/*=========== Styles utilisés pour les commentaires (et newbb/cbb également) ===========*/
+.comTitle {color:#35CFFF; font-weight: bold; margin-bottom: 2px; background-color: inherit;}
+.comText {color:#666; padding: 2px; background-color: inherit;}
+.comUserStat {font-size: .7em; color: #0053A6; font-weight:bold; border: 1px solid silver; background-color: #fff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #0053A6; font-weight:bold; font-size: .7em; background-color: inherit;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: .7em; font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: .7em;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+/*================ Style pour les Citations ================*/
+blockquote {
+	background-color:				inherit;
+	color:							#333;
+	font-style: 					italic;
+	margin:							4px;
+	padding:							.5em;
+	border:							1px dashed #35CFFF;
+	padding:							0 10px 0 10px;
+}
+/*================== Style pour les Codes =================*/
+.xoopsCode {
+	color:							#666;
+	background-color:				#fff;
+	font-family:					monospace;
+	border-left :					5px solid #35CFFF;
+	border-right:					1px solid #35CFFF;
+	border-top:						1px solid #35CFFF;
+	border-bottom:					1px solid #35CFFF;
+	padding:							.5em;
+	width:							95%;
+	max-height: 					400px;
+	display:							block;
+}
+/*========== styles utilisés dans les versions Xoops à partir de la 2.3 ==============*/
+.x2-note {
+	color:							#666;
+	margin:							1em .5em;
+	padding:							.5em;
+	background-color:				#F4FAFF;
+	border:							1px solid #E4EAEF;
+}
+#xo-content  .x2-contentinfo {
+	color:							#666;
+	margin:							1em .5em;
+	border:							1px solid #e0e0e0;
+	padding:							.5em;
+	background-color:				#f8f8f8;
+}
+#xo-content .x2-secondary {
+	color:							#666;
+	margin:							1em .5em;
+	padding:							.5em;
+	background-color: 			inherit;
+}
+.x2-seealso {
+	color:							#666;
+	margin:							1em .5em;
+	padding:							.5em 1em;
+	background-color:				#fffcf6;
+	border:							1px solid #efeae4;
+}
+.x2-seealso ul, .x2-note ul {
+	color:							#666;
+	margin:							0px;
+	padding-left:					1em;
+	background-color: 			inherit;
+}
+.x2-seealso a {
+	color:							#315EDF;
+	background-color: 			inherit;
+}
+.x2-seealso a:hover {
+	color:							#666;
+	background-color: 			inherit;
+}
+body.site_closed form {	padding: 1em 35%;}
+#system-select_notifications { clear: both;}
